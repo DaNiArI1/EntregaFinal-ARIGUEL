@@ -297,17 +297,38 @@ footer {
   border-radius: 50%;
 }
 
-.primeimage {
-  -webkit-animation-duration: 0.5s;
-          animation-duration: 0.5s;
+.jumbotron {
+  height: 100%;
+  width: 100%;
+  color: white;
+  background-color: var(--color0);
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
   -webkit-animation-name: aparecer;
           animation-name: aparecer;
-  -webkit-animation-delay: 1s;
-          animation-delay: 1s;
   -webkit-animation-direction: alternate;
           animation-direction: alternate;
   -webkit-animation-iteration-count: initial;
           animation-iteration-count: initial;
+}
+
+.jumbotron p {
+  width: 45%;
+  font-family: verdana, Geneva, Tahoma, sans-serif;
+  font-size: 25px;
+  -webkit-text-stroke: 1px black;
+  padding-left: 2%;
+  padding-right: 2%;
+}
+
+@media only screen and (max-width: 691px) {
+  .jumbotron p {
+    width: 100%;
+    Background-color: black;
+    filter: alpha(opacity=80);
+    -moz-opacity: .80;
+    opacity: .80;
+  }
 }
 
 @-webkit-keyframes aparecer {
