@@ -897,6 +897,26 @@ h2 {
   width: 100% !important;
 }
 
+.section {
+  width: 100% !important;
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+  -webkit-box-align: center !important;
+      -ms-flex-align: center !important;
+          align-items: center !important;
+  -webkit-box-pack: center !important;
+      -ms-flex-pack: center !important;
+          justify-content: center !important;
+}
+
+.magazine {
+  width: 98% !important;
+  margin-left: 1% !important;
+  margin-right: 1% !important;
+  padding-left: 1% !important;
+}
+
 @media only screen and (min-width: 576px) and (max-width: 767px) {
   .card {
     -webkit-box-flex: content !important;

@@ -721,6 +721,19 @@ h2{
 .card-deck{
     width: 100% !important;
 }
+.section{
+    width: 100% !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+
+}
+.magazine{
+    width: 98% !important;
+    margin-left: 1% !important;
+    margin-right: 1% !important;
+    padding-left: 1% !important;
+}
 @media only screen and (min-width: 576px) and (max-width: 767px) {
 .card{
     flex: content !important;
