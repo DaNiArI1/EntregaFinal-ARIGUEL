@@ -307,7 +307,23 @@ footer{
  }
 
 }
-//SEGUNDA SECCION DEL INDEX
+//H
+h1{
+    background-color: gold;
+    text-align: center;
+    font-family: $font2;
+
+}
+
+h2{
+    background-color: gold;
+    color: black;
+    text-shadow: 2px 2px white;
+    text-align: center;
+    font-family: $font2;
+
+}
+//SECCION DEL INDEX
 .contenedor{
     height: 100%;
     display: grid;
@@ -329,15 +345,41 @@ footer{
     height: 100%;
     font-size: 20px;
 }
+.conttext{
+    padding: 3%;
+}
 
-@media only screen and (max-width: 691px){
+@media only screen and (min-width: 1px) and (max-width: 350px){
+    .contenedor{
+        grid-template-columns: 98% !important;
+        grid-template-rows: 20% 30% 30% 16% !important;
+        }
+    .item{
+          height: 100%;
+      }
+    .conttext{
+        font-size: 14px;
+    }
+
+}
+@media only screen and (min-width: 351px) and (max-width: 450px){
+    .contenedor{
+    grid-template-columns: 98% !important;
+    grid-template-rows: 20% 30% 30% 16% !important;
+    }
+    .item{
+      height: 100%;
+      font-size: 18px;
+  }
+}
+@media only screen and (min-width: 451px) and (max-width: 691px){
     .contenedor{
     grid-template-columns: 98% !important;
     grid-template-rows: 25% 25% 25% 20% !important;
     }
     .item{
       height: 100%;
-      font-size: 15px;
+      font-size: 18px;
   }
 }
 @media only screen and (min-width: 691px) and (max-width: 767px){
@@ -383,21 +425,6 @@ footer{
   }
 }
 
-h1{
-    background-color: gold;
-    text-align: center;
-    font-family: $font2;
-
-}
-
-h2{
-    background-color: gold;
-    color: black;
-    text-shadow: 2px 2px white;
-    text-align: center;
-    font-family: $font2;
-
-}
 //SECCION CONTACTO-CONTACT SECTION
 .formulario{
     background-image: url(https://cdn.pixabay.com/photo/2018/09/16/22/08/software-3682509_960_720.jpg);
@@ -413,6 +440,12 @@ h2{
         padding-left: 40%;
         text-align: start;
     }
+}
+@media only screen and (max-width: 300px) {
+    .usodatos{
+        font-size: 13px;
+    }
+
 }
 //SECCION NOSOTROS-SECTION US
 #us{
@@ -769,6 +802,9 @@ h2{
 @media only screen and (min-width: 576px) and (max-width: 767px) {
 .card{
     flex: content !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
 }
 }
 

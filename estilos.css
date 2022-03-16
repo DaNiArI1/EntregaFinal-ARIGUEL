@@ -351,6 +351,20 @@ footer {
   }
 }
 
+h1 {
+  background-color: gold;
+  text-align: center;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+h2 {
+  background-color: gold;
+  color: black;
+  text-shadow: 2px 2px white;
+  text-align: center;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
 .contenedor {
   height: 100%;
   display: -ms-grid;
@@ -378,7 +392,39 @@ footer {
   font-size: 20px;
 }
 
-@media only screen and (max-width: 691px) {
+.conttext {
+  padding: 3%;
+}
+
+@media only screen and (min-width: 1px) and (max-width: 350px) {
+  .contenedor {
+    -ms-grid-columns: 98% !important;
+        grid-template-columns: 98% !important;
+    -ms-grid-rows: 20% 30% 30% 16% !important;
+        grid-template-rows: 20% 30% 30% 16% !important;
+  }
+  .item {
+    height: 100%;
+  }
+  .conttext {
+    font-size: 14px;
+  }
+}
+
+@media only screen and (min-width: 351px) and (max-width: 450px) {
+  .contenedor {
+    -ms-grid-columns: 98% !important;
+        grid-template-columns: 98% !important;
+    -ms-grid-rows: 20% 30% 30% 16% !important;
+        grid-template-rows: 20% 30% 30% 16% !important;
+  }
+  .item {
+    height: 100%;
+    font-size: 18px;
+  }
+}
+
+@media only screen and (min-width: 451px) and (max-width: 691px) {
   .contenedor {
     -ms-grid-columns: 98% !important;
         grid-template-columns: 98% !important;
@@ -387,7 +433,7 @@ footer {
   }
   .item {
     height: 100%;
-    font-size: 15px;
+    font-size: 18px;
   }
 }
 
@@ -449,20 +495,6 @@ footer {
   }
 }
 
-h1 {
-  background-color: gold;
-  text-align: center;
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-}
-
-h2 {
-  background-color: gold;
-  color: black;
-  text-shadow: 2px 2px white;
-  text-align: center;
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-}
-
 .formulario {
   background-image: url(https://cdn.pixabay.com/photo/2018/09/16/22/08/software-3682509_960_720.jpg);
   background-size: cover;
@@ -477,6 +509,12 @@ h2 {
   .formulario {
     padding-left: 40%;
     text-align: start;
+  }
+}
+
+@media only screen and (max-width: 300px) {
+  .usodatos {
+    font-size: 13px;
   }
 }
 
@@ -958,6 +996,15 @@ h2 {
     -webkit-box-flex: content !important;
         -ms-flex: content !important;
             flex: content !important;
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+    -webkit-box-align: center !important;
+        -ms-flex-align: center !important;
+            align-items: center !important;
+    -webkit-box-pack: center !important;
+        -ms-flex-pack: center !important;
+            justify-content: center !important;
   }
 }
 
