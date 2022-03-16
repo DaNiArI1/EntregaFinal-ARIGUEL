@@ -748,6 +748,7 @@ h2 {
 
 .partners {
   background-color: #682929;
+  height: 100%;
   border: 3px solid black;
   color: white;
   display: -webkit-box;
@@ -760,6 +761,36 @@ h2 {
   -ms-flex-pack: distribute;
       justify-content: space-around;
   row-gap: 10%;
+}
+
+.partner1 {
+  height: 170px;
+  width: 180px;
+}
+
+.partner2 {
+  height: 170px;
+  width: 180px;
+}
+
+.partner3 {
+  height: 170px;
+  width: 180px;
+}
+
+.partnerimg1 {
+  height: 100%;
+  width: 100%;
+}
+
+.partnerimg2 {
+  height: 100%;
+  width: 100%;
+}
+
+.partnerimg3 {
+  height: 100%;
+  width: 100%;
 }
 
 @media only screen and (max-width: 576px) {

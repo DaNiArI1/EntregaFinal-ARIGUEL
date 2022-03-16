@@ -600,8 +600,10 @@ h2{
   
   .Text-1 { grid-area: Text-1; }
 
+  //PARTNERS
 .partners{
     background-color: rgb(104, 41, 41);
+    height: 100%;
     border: 3px solid black;
     color: white;
     display: flex;
@@ -609,6 +611,35 @@ h2{
     justify-content: space-around;
     row-gap: 10%;
 }
+.partner1{
+    height: 170px;
+    width: 180px;
+
+}
+.partner2{
+    height: 170px;
+    width: 180px;
+
+}
+.partner3{
+    height: 170px;
+    width: 180px;
+
+}
+
+.partnerimg1{
+    height: 100%;
+    width: 100%;
+}
+.partnerimg2{
+    height: 100%;
+    width: 100%;
+}
+.partnerimg3{
+    height: 100%;
+    width: 100%;
+}
+
 @media only screen and (max-width: 576px){
     .partners{
         flex-direction: column;
@@ -621,13 +652,14 @@ h2{
     .partner2{
         padding-top: 10px;
     
-}
+    }
     .partner3{
         padding-top: 10px;
     
     }
 }
 
+//PARTNERS EFFECTS-EFECTOS PARTNERS
 .partners:hover{
     transform: matrix(1.1);
     transition: all 1s;
@@ -649,6 +681,7 @@ h2{
     filter: saturate(150%);
 }
 
+//CARDS
 .card-text:hover{
     transform: scale(1.1) !important;
     transition: all 1s !important;
@@ -694,6 +727,7 @@ h2{
 }
 }
 
+//SASS
 $datos: (
 
 datos1: arial,
