@@ -799,6 +799,12 @@ box-shadow: 0px 0px 10px 10px rgb(114, 18, 18);
 .how-img img{
     width: 40%;
 }
+.atributos:hover{
+    transition:all .5s ease-in-out;
+    box-shadow: 0px 0px 10px 10px rgb(114, 18, 18);
+    -webkit-box-shadow: 0px 0px 10px 10px rgb(129, 19, 19);
+    -webkit-transform:scale(1.03);transform:scale(1.03);
+}
 //Corregir responsive
 .row{
     width: 100% !important;
