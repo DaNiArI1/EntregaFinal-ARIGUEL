@@ -327,10 +327,10 @@ footer {
   width: 45%;
   font-family: verdana, Geneva, Tahoma, sans-serif;
   font-size: 25px;
-  -webkit-text-stroke: 1px var(--color0);
+  -webkit-text-stroke: 0.5px var(--color0);
   padding-left: 2%;
   padding-right: 2%;
-  text-shadow: 1px solid black;
+  text-shadow: 0.5px solid black;
 }
 
 @media only screen and (max-width: 691px) {
